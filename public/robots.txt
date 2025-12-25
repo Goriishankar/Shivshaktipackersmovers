@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shivshaktipackersmovers.com
+
+# Sitemaps
+Sitemap: https://shivshaktipackersmovers.com/sitemap.xml
