@@ -25,7 +25,7 @@ export const TestimonialSlider1 = () => {
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              {/* <img src="assets/img/testimonial/icon.png" alt="img" /> */}
             </div>
           </div>
         </SwiperSlide>
@@ -46,7 +46,7 @@ export const TestimonialSlider1 = () => {
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              {/* <img src="assets/img/testimonial/icon.png" alt="img" /> */}
             </div>
           </div>
         </SwiperSlide>
@@ -67,7 +67,7 @@ export const TestimonialSlider1 = () => {
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              {/* <img src="assets/img/testimonial/icon.png" alt="img" /> */}
             </div>
           </div>
         </SwiperSlide>
@@ -88,7 +88,7 @@ export const TestimonialSlider1 = () => {
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              {/* <img src="assets/img/testimonial/icon.png" alt="img" /> */}
             </div>
           </div>
         </SwiperSlide>

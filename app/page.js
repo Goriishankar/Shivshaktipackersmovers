@@ -266,7 +266,7 @@ const page = () => {
                       </Link>
                     </div>
                     <div className="author-image">
-                      <img src="assets/img/about/author.jpg" alt="author-img" />
+                      <img src="assets/img/testimonial/client.png" alt="author-img" />
                       <div className="content">
                         <h5>
                           Poonia Boss / <span>CO Founder</span>
@@ -310,7 +310,7 @@ const page = () => {
                 <div className="service-thumb">
                   <img src="assets/img/service/04.jpg" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    {/* <img src="assets/img/service/line.png" alt="shape-img" /> */}
                   </div>
                 </div>
                 <Link className="link-btn" href="service">
@@ -333,7 +333,7 @@ const page = () => {
                 <div className="service-thumb">
                   <img src="assets/img/service/05.jpg" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    {/* <img src="assets/img/service/line.png" alt="shape-img" /> */}
                   </div>
                 </div>
                 <Link className="link-btn" href="service">
@@ -356,7 +356,7 @@ const page = () => {
                 <div className="service-thumb">
                   <img src="assets/img/service/06.jpg" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    {/* <img src="assets/img/service/line.png" alt="shape-img" /> */}
                   </div>
                 </div>
                 <Link className="link-btn" href="service">
@@ -379,7 +379,7 @@ const page = () => {
                 <div className="service-thumb">
                   <img src="assets/img/service/07.jpg" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    {/* <img src="assets/img/service/line.png" alt="shape-img" /> */}
                   </div>
                 </div>
                 <Link className="link-btn" href="service">
@@ -467,10 +467,10 @@ const page = () => {
       {/* Popular Case Study Section Start */}
       <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
-          <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
+          <img src="assets/img/left-shape.png" alt="shape-img" />
         </div>
         <div className="right-shape">
-          <img src="assets/img/case-study/right-shape.png" alt="shape-img" />
+          <img src="assets/img/right-shape.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="section-title-area">
