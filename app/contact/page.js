@@ -20,7 +20,6 @@ const page = () => {
   return (
     <NextLayout>
       <Breadcrumb pageName="Contact Us" />
-      {/* Contact Section Section Start */}
       <section className="contact-section section-padding">
         <div className="container">
           <div className="contact-wrapper">
