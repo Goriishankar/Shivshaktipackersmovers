@@ -36,15 +36,16 @@ const Faq = () => {
                         type="button"
                         onClick={() => toggleFaq("faq1")}
                       >
-                        Why Need Digital Marketing For Build Business ?
+                        Why Choose Shiv Shakti Packers And Movers ?
                       </button>
                     </h4>
                     <div className={`accordion-collapse collapse ${openId === "faq1" ? "show" : ""}`}>
                       <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
+                        Shiv Shakti Packers and Movers provides reliable packing
+                        shifting relocation and transportation services with
+                        trained staff secure handling timely delivery affordable
+                        pricing professional support and complete customer
+                        satisfaction across multiple cities in India
                       </div>
                     </div>
                   </div>
@@ -57,15 +58,15 @@ const Faq = () => {
                         type="button"
                         onClick={() => toggleFaq("faq2")}
                       >
-                        How to Increase Web Traffic ?
+                        Do You Provide Safe Packing And Moving Services ?
                       </button>
                     </h4>
                     <div className={`accordion-collapse collapse ${openId === "faq2" ? "show" : ""}`}>
                       <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
+                        We use quality packing materials experienced manpower
+                        modern equipment careful loading unloading techniques
+                        and systematic planning to ensure safe damage free
+                        transport of household office and commercial goods
                       </div>
                     </div>
                   </div>
@@ -78,15 +79,15 @@ const Faq = () => {
                         type="button"
                         onClick={() => toggleFaq("faq3")}
                       >
-                        How to Development SEO Optimization ?
+                        Do You Offer Local And Long Distance Relocation ?
                       </button>
                     </h4>
                     <div className={`accordion-collapse collapse ${openId === "faq3" ? "show" : ""}`}>
                       <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
+                        Shiv Shakti Packers and Movers handles local shifting
+                        intercity relocation interstate moves and nationwide
+                        transportation services with proper planning tracking
+                        support transparent process and assured delivery time
                       </div>
                     </div>
                   </div>
@@ -99,15 +100,15 @@ const Faq = () => {
                         type="button"
                         onClick={() => toggleFaq("faq4")}
                       >
-                        Have Any Professional Team Member ?
+                        Do You Have Trained And Professional Team Members ?
                       </button>
                     </h4>
                     <div className={`accordion-collapse collapse ${openId === "faq4" ? "show" : ""}`}>
                       <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
+                        Our team includes skilled packers loaders drivers
+                        supervisors and support staff trained to manage every
+                        relocation task safely efficiently professionally and
+                        responsibly from packing to final delivery process
                       </div>
                     </div>
                   </div>
@@ -120,15 +121,15 @@ const Faq = () => {
                         type="button"
                         onClick={() => toggleFaq("faq5")}
                       >
-                        Have you any Global Customer ?
+                        Do You Serve Residential And Commercial Customers ?
                       </button>
                     </h4>
                     <div className={`accordion-collapse collapse ${openId === "faq5" ? "show" : ""}`}>
                       <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
+                        We serve households offices shops warehouses corporate
+                        clients and individuals offering customized moving
+                        solutions insurance assistance storage options and
+                        dependable services for every relocation requirement
                       </div>
                     </div>
                   </div>
