@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
+import FormPendingWrapper from "@/components/FormPendingWrapper";
 
 export const metadata = {
   title: "Contact Us",
@@ -66,60 +67,46 @@ const page = () => {
                   data-wow-delay=".4s"
                 >
                   <h3>Send Us Message</h3>
-                  <form
-                    action="#"
-                    id="contact-form"
-                    method="POST"
+                  <FormPendingWrapper
+                    action={
+                      process.env.NODE_ENV === "development"
+                        ? "http://localhost:8000/mail.php"
+                        : "/mail.php"
+                    }
                     className="contact-form-items"
                   >
                     <div className="row g-4">
                       <div className="col-lg-6">
                         <div className="form-clt">
-                          <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Full Name"
-                          />
+                          <input type="text" name="name" id="name" placeholder="Full Name" />
                         </div>
                       </div>
+
                       <div className="col-lg-6">
                         <div className="form-clt">
-                          <input
-                            type="text"
-                            name="phone"
-                            id="phone"
-                            placeholder="Phone"
-                          />
+                          <input type="text" name="phone" id="phone" placeholder="Phone" />
                         </div>
                       </div>
+
                       <div className="col-lg-12">
                         <div className="form-clt">
-                          <input
-                            type="text"
-                            name="email"
-                            id="email2"
-                            placeholder="Your Email"
-                          />
+                          <input type="text" name="email" id="email2" placeholder="Your Email" />
                         </div>
                       </div>
+
                       <div className="col-lg-12">
                         <div className="form-clt">
-                          <textarea
-                            name="message"
-                            id="message"
-                            placeholder="Comments"
-                            defaultValue={""}
-                          />
+                          <textarea name="message" id="message" placeholder="Comments" />
                         </div>
                       </div>
+
                       <div className="col-lg-6">
                         <button type="submit" className="theme-btn">
                           Send a Message
                         </button>
                       </div>
                     </div>
-                  </form>
+                  </FormPendingWrapper>
                 </div>
               </div>
 

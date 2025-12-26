@@ -6,6 +6,7 @@ import Link from "next/link";
 import GallerySection from "../components/GallerySection";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
 import OurNetwork from "../components/OurNetwork";
+import FormPendingWrapper from "@/components/FormPendingWrapper";
 
 const page = () => {
   return (
@@ -54,64 +55,55 @@ const page = () => {
               <div className="hero-contact-box">
                 <h4>Get Consultations</h4>
                 <p>Ready to Book Our Packing Services</p>
-                <form
-                  action="#"
-                  id="contact-form"
-                  method="POST"
-                  className="contact-form-item"
-                >
-                  <div className="row g-4">
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Your Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="email"
-                          id="email"
-                          placeholder="Email Address"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="phone"
-                          id="phone"
-                          placeholder="Phone Number"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="payment-save">
-                        <input
-                          type="checkbox"
-                          className="form-check-input"
-                          name="save-for-next"
-                          id="saveForNext"
-                        />
-                        <p>
-                          I’ve Read and agreed to{" "}
-                          <Link href="/">Terms &amp; Conditions</Link>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <button type="submit" className="theme-btn">
-                        Get Started Now <i className="far fa-arrow-right" />
-                      </button>
-                    </div>
-                  </div>
-                </form>
+<FormPendingWrapper
+  action={
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:8000/mail.php"
+      : "/mail.php"
+  }
+  className="contact-form-item"
+>
+  <div className="row g-4">
+    <div className="col-lg-12">
+      <div className="form-clt">
+        <input type="text" name="name" id="name" placeholder="Your Name" />
+      </div>
+    </div>
+
+    <div className="col-lg-12">
+      <div className="form-clt">
+        <input type="text" name="email" id="email" placeholder="Email Address" />
+      </div>
+    </div>
+
+    <div className="col-lg-12">
+      <div className="form-clt">
+        <input type="text" name="phone" id="phone" placeholder="Phone Number" />
+      </div>
+    </div>
+
+    <div className="col-lg-12">
+      <div className="payment-save">
+        <input
+          type="checkbox"
+          className="form-check-input"
+          name="save-for-next"
+          id="saveForNext"
+        />
+        <p>
+          I’ve Read and agreed to <Link href="/">Terms &amp; Conditions</Link>
+        </p>
+      </div>
+    </div>
+
+    <div className="col-lg-12">
+      <button type="submit" className="theme-btn">
+        Get Started Now <i className="far fa-arrow-right" />
+      </button>
+    </div>
+  </div>
+</FormPendingWrapper>
+
               </div>
             </div>
           </div>

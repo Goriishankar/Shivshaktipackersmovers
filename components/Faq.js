@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const Faq = () => {
-  const [openId, setOpenId] = useState("faq2"); // default open same as UI
+  const [openId, setOpenId] = useState("faq2");
 
   const toggleFaq = (id) => {
     setOpenId(openId === id ? null : id);
