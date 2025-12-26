@@ -233,7 +233,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:shivshaktigoddady@gmail.com">shivshaktigoddady@gmail.com</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">

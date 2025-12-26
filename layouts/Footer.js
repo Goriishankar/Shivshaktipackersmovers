@@ -104,8 +104,8 @@ const Footer1 = () => {
                       <i className="fas fa-envelope" />
                     </div>
                     <div className="content">
-                      <a href="mailto:info@example.com" className="link">
-                        info@example.com
+                      <a href="mailto:shivshaktigoddady@gmail.com" className="link">
+                        shivshaktigoddady@gmail.com
                       </a>
                     </div>
                   </div>
