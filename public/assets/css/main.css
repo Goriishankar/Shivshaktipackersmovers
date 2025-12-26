@@ -10506,3 +10506,24 @@ p.sticky-label {
     padding-bottom: 60px;
   }
 }
+
+
+.payment-save .form-check-input {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+
+  background-image: none !important;
+  background-color: transparent !important;
+
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+
+
+  accent-color: var(--theme); 
+}
+
+.payment-save .form-check-input:checked {
+  background-image: none !important;
+}
